@@ -6,6 +6,14 @@
   <title>Document</title>
 </head>
 <body>
-  
+
+<div class="container my-3">
+  <div class="row">
+    <div class="col">
+      <h2>Atterraggio Form in GET</h2>
+      <h2>Frase inserita:</h2>
+    </div>
+  </div>
+</div>
 </body>
 </html>
