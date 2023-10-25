@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.css' integrity='sha512-bR79Bg78Wmn33N5nvkEyg66hNg+xF/Q8NA8YABbj+4sBngYhv9P8eum19hdjYcY7vXk/vRkhM3v/ZndtgEXRWw==' crossorigin='anonymous'/>
   <title>Document</title>
 </head>
 <body>
   
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Bad Words PHP</h1>
+        <div>
+          <form action="pagina-di-atterraggio-get.php" method="get">
+            <div class="m-3">
+              <label for="word" class="mb-2 ">Inserisci parola</label>
+              <input type="text" class="form-control" id="word" name="word" placeholder="Parola da inserire">
+            </div>
+            <button type="submit" class="btn btn-danger m-3 ">Invio</button>
+  
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
