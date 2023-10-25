@@ -1,3 +1,6 @@
+<?
+ $word = isset($_GET['word']) ? $_GET['word'] :  "NO NAME";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,12 +9,11 @@
   <title>Document</title>
 </head>
 <body>
-
 <div class="container my-3">
   <div class="row">
     <div class="col">
       <h2>Atterraggio Form in GET</h2>
-      <h2>Frase inserita:</h2>
+      <h2>Frase inserita:<?php echo $word ?></h2>
     </div>
   </div>
 </div>
