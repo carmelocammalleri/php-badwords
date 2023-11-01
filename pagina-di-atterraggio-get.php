@@ -1,5 +1,5 @@
 <?
- $word = isset($_GET['word.trim']) ? $_GET['word'] :  "NO WORDS, YOU MUST INSERT FISIC WORD ";
+ $word = isset($_GET['word']) ? $_GET['word'] :  "NO WORDS, YOU MUST INSERT FISIC WORD ";
 ?>
 <!DOCTYPE html>
 <html lang="en">
