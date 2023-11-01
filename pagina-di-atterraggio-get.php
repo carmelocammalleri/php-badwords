@@ -1,5 +1,6 @@
 <?
- $word = isset($_GET['word']) ? $_GET['word'] :  "NO WORDS, YOU MUST INSERT FISIC WORD ";
+$badword = isset($_GET['badword']) ? $_GET['badword'] :  "NO WORDS, YOU MUST INSERT FISIC WORD ";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +14,7 @@
   <div class="row">
     <div class="col">
       <h2>Atterraggio Form in GET</h2>
-      <h2>Frase inserita:<?php echo $word ?></h2>
+      <h2>Parola da censurare: <?php echo $badword ?></h2>
     </div>
   </div>
 </div>
